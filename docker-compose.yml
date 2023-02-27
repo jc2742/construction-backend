@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  construction-backend:
+    image: jc2742/construction-backend
+    env_file: .env
+    ports:
+      - "8000:8000"
